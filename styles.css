@@ -1,12 +1,15 @@
 body {
-    width: 33%
+    width: 80vw;
+    font-family: sans-serif;
 }
 
 #res {
+    
     background-color: lightgray;
     border: solid;
-    height: 48px;
-    font-size: 20px;
+    height: 4rem;
+    font-size: 3rem;
+    
 }
 
 #bt0, #bt1 {
@@ -21,13 +24,20 @@ body {
 
 #btnSum, #btnSub, #btnMul, #btnDiv {
     background-color: black;
-    color: red;
+    color: white;
+
 }
 
 button {
     width: 25%;
-    height: 36px; 
-    font-size: 18px;
+    height: 30%; 
+    font-size: 4rem;
     margin: 0px;
     float: left;
+}
+
+@media (max-width:700px){
+    #res {
+        font-size: 1.5rem
+    }
 }
